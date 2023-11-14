@@ -26,15 +26,15 @@ describe('PolicyStore', () => {
 
   it('should have no initialization state', () => {
     service.get().subscribe(executors.get);
-    service.update(ALLOW_EDIT_USER);
+    service.set(ALLOW_EDIT_USER);
 
     expect(executors.get).toHaveBeenCalledOnceWith(ALLOW_EDIT_USER);
   });
 
   it('should notify when the new permissions are updated', () => {
     service.get().subscribe(executors.get);
-    service.update(ALLOW_EDIT_USER);
-    service.update(EMPTY_PERMISSIONS);
+    service.set(ALLOW_EDIT_USER);
+    service.set(EMPTY_PERMISSIONS);
 
     expect(executors.get).toHaveBeenCalledWith(EMPTY_PERMISSIONS);
     expect(executors.get).toHaveBeenCalledWith(ALLOW_EDIT_USER);
