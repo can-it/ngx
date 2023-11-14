@@ -65,7 +65,7 @@ export class AppComponent implements OnInit {
   constructor(private PolicyStore: PolicyStore) {}
 
   ngOnInit(): void {
-    this.PolicyStore.update({
+    this.PolicyStore.set({
       allow: [
         ['edit', 'products'],
         ['view', 'users'],
