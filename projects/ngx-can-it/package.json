@@ -29,7 +29,8 @@
     "@angular/core": "^16.2.0"
   },
   "dependencies": {
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.0",
+    "@can-it/core": "^0.5.3"
   },
   "sideEffects": false
 }

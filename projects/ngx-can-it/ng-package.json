@@ -3,5 +3,8 @@
   "dest": "../../dist/ngx-can-it",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "allowedNonPeerDependencies": [
+    "@can-it/core"
+  ]
 }
