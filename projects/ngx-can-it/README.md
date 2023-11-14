@@ -62,10 +62,10 @@ import { PolicyStore } from '@can-it/ngx';
   `,
 })
 export class AppComponent implements OnInit {
-  constructor(private PolicyStore: PolicyStore) {}
+  constructor(private policyStore: PolicyStore) {}
 
   ngOnInit(): void {
-    this.PolicyStore.set({
+    this.policyStore.set({
       allow: [
         ['edit', 'products'],
         ['view', 'users'],
