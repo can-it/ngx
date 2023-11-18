@@ -1,3 +1,3 @@
 # NgxCanIt
 
-[Documentation](https://github.com/can-it/ngx-can-it/blob/main/projects/ngx-can-it/README.md)
+[Documentation](https://can-it.github.io/packages/ngx)

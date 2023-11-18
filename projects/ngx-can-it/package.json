@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/can-it/ngx/issues"
   },
-  "homepage": "https://github.com/can-it/ngx#readme",
+  "homepage": "https://can-it.github.io/packages/ngx",
   "peerDependencies": {
     "@angular/common": "^16.2.0",
     "@angular/core": "^16.2.0"
